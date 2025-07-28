@@ -6,3 +6,8 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+.md-nav__title {
+  color: #ae1926; /* Tu color personalizado */
+  font-weight: 700;
+}
