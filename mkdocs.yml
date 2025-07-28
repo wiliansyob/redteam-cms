@@ -1,8 +1,35 @@
-site_name: RedTeam CMS
+site_name: Repo-readteam
+
+nav:
+  - Home: index.md
+  - "🧰 Machine HTB":
+      - "– Overview": htb/machine.md
+      - "– Forest": htb/forest.md
+      - "– Voleur": htb/voleur.md
+      - "– Era": htb/era.md
+      - "– Bashed": htb/bashed.md
+  - "🛠 Tools":
+      - "– Nmap": tools/nmap.md
+      - "– LinPEAS": tools/linpeas.md
+  - "🗒️ Notes":
+      - "– Reverse Shells": anotaciones/reverse-shells.md
+      - "– SUID": anotaciones/suid.md
+      - "– Persistence": anotaciones/persistence.md
+      - "– Pivoting": anotaciones/pivoting.md
+
+extra:
+  generator: false
+  favicon: images/favicon.png
+
+extra_css:
+  - extra.css
+
 theme:
   name: material
-  custom_dir: overrides
   language: es
+  custom_dir: overrides
+  palette:
+    primary: custom
   features:
     - navigation.sections
     - toc.integrate
@@ -26,24 +53,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
-nav:
-  - Home: index.md
-  - About: about.md
-  - Machine HTB:
-      - Machine: htb/machine.md
-      - Forest: htb/forest.md
-      - Voleur: htb/voleur.md
-  - Tools:
-      - Nmap: tools/nmap.md
-      - LinPEAS: tools/linpeas.md
-  - Notes:
-      - Reverse Shells: anotaciones/reverse-shells.md
-      - SUID: anotaciones/suid.md
-      - Persistence: anotaciones/persistence.md
-      - Pivoting: anotaciones/pivoting.md
-  - Cheatsheets:
-      - Linux Privesc: cheatsheets/linux-privesc.md
-      - Web: cheatsheets/web.md
-
-extra_css:
-  - extra.css
+plugins:
+  - search
+  - minify:
+      minify_html: true

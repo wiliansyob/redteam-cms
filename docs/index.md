@@ -1,6 +1,8 @@
-# RedTeam CMS
+# Repositorio de conocimiento
 
 ¡Bienvenido a mi espacio de aprendizaje y documentación sobre hacking ético!
+
+<img src="images/logo.png" class="portada">
 
 En este sitio encontrarás:
 

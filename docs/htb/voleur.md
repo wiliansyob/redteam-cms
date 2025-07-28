@@ -1,9 +1,5 @@
 
----
 
-### 📄 `docs/htb/windows/voleur.md`
-
-```markdown
 # Voleur - HTB
 
 **Dificultad:** Media  

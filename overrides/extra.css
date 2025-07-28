@@ -7,8 +7,20 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-.md-nav__title,
-.md-nav__item .md-nav__link--section {
+.md-nav__section .md-nav__title {
   color: #ae1926 !important;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.md-footer {
+  display: none !important;
+}
+
+.md-nav__item .md-nav__link {
+  padding-left: calc(var(--md-spacing-horizontal) + 12px);
+}
+
+.md-nav__item--nested > .md-nav__link {
+  font-weight: bold;
+  padding-left: var(--md-spacing-horizontal);
 }
