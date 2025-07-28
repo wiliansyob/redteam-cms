@@ -7,7 +7,8 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-.md-nav__title {
-  color: #ae1926; /* Tu color personalizado */
+.md-nav__title,
+.md-nav__item .md-nav__link--section {
+  color: #ae1926 !important;
   font-weight: 700;
 }
