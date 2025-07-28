@@ -4,7 +4,6 @@ theme:
   custom_dir: overrides
   language: es
   features:
-    - navigation.expand
     - navigation.sections
     - toc.integrate
     - content.code.copy
@@ -31,10 +30,9 @@ nav:
   - Home: index.md
   - About: about.md
   - Machine HTB:
-      - Windows:
-          - Machine: htb/machine.md
-          - Forest: htb/forest.md
-          - Voleur: htb/voleur.md
+      - Machine: htb/machine.md
+      - Forest: htb/forest.md
+      - Voleur: htb/voleur.md
   - Tools:
       - Nmap: tools/nmap.md
       - LinPEAS: tools/linpeas.md
