@@ -31,10 +31,9 @@ nav:
   - Home: index.md
   - About: about.md
   - Machine HTB:
-      - Windows:
-          - Machine: htb/machine.md
-          - Forest: htb/forest.md
-          - Voleur: htb/voleur.md
+      - Machine: htb/machine.md
+      - Forest: htb/forest.md
+      - Voleur: htb/voleur.md
   - Tools:
       - Nmap: tools/nmap.md
       - LinPEAS: tools/linpeas.md
@@ -49,4 +48,9 @@ nav:
 
 
 extra_css:
-  - extra.css
+  - styles/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tu_usuario
