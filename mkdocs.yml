@@ -3,9 +3,6 @@ theme:
   name: material
   custom_dir: overrides
   language: es
-  palette:
-    primary: red
-    accent: deep orange
   features:
     - navigation.expand
     - navigation.sections
@@ -52,4 +49,3 @@ nav:
 
 extra_css:
   - extra.css
-  
