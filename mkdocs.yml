@@ -1,6 +1,51 @@
-site_name: RED TEAM CMS
+site_name: RedTeam CMS
 theme:
   name: material
+  language: es
+  palette:
+    primary: red
+    accent: deep orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - toc.integrate
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.magiclink
+  - pymdownx.betterem
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 nav:
-  - Inicio: index.md
-  - Guía: guide.md
+  - Home: index.md
+  - About: about.md
+  - Machine HTB:
+      - Windows:
+          - Machine: htb/machine.md
+          - Forest: htb/forest.md
+          - Voleur: htb/voleur.md
+  - Tools:
+      - Nmap: tools/nmap.md
+      - LinPEAS: tools/linpeas.md
+  - Notes:
+      - Reverse Shells: anotaciones/reverse-shells.md
+      - SUID: anotaciones/suid.md
+      - Persistence: anotaciones/persistence.md
+      - Pivoting: anotaciones/pivoting.md
+  - Cheatsheets:
+      - Linux Privesc: cheatsheets/linux-privesc.md
+      - Web: cheatsheets/web.md

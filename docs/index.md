@@ -1,9 +1,14 @@
-# RED TEAM CMS
+# RedTeam CMS
 
-Bienvenido a la documentación de RED TEAM CMS.
+¡Bienvenido a mi espacio de aprendizaje y documentación sobre hacking ético!
 
-## Características
+En este sitio encontrarás:
 
-- Despliegue con Netlify
-- Generado con MkDocs + Material theme
-- Documentación simple y mantenible
+- 🧠 Resoluciones de máquinas de Hack The Box (HTB)
+- 🛠️ Guías y manuales de herramientas utilizadas en el proceso
+- 💡 Anotaciones y trucos útiles para CTFs y pentesting
+- 📚 Cheatsheets de técnicas comunes de explotación y post-explotación
+
+Este sitio está pensado como una referencia rápida, organizada y extensible para cualquier redteamer en formación o entusiasta de la ciberseguridad ofensiva.
+
+¡Explora, aprende y comparte!
