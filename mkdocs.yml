@@ -5,7 +5,7 @@ theme:
   custom_dir: overrides
   features:
     - navigation.sections
-    - navigation.expand
+    - navigation
     - toc.integrate
     - content.code.copy
     - content.code.annotate
