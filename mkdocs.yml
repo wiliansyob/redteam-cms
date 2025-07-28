@@ -3,6 +3,11 @@ theme:
   name: material
   language: es
   custom_dir: overrides
+  palette:
+    primary: custom
+  font:
+    text: Inter
+    code: Fira Code
   features:
     - navigation.sections
     - navigation
@@ -46,10 +51,9 @@ nav:
       - Linux Privesc: cheatsheets/linux-privesc.md
       - Web: cheatsheets/web.md
 
-
 extra_css:
   - styles/extra.css
-
+  
 extra:
   social:
     - icon: fontawesome/brands/github
