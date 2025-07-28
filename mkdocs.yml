@@ -1,16 +1,14 @@
 site_name: RedTeam CMS
 theme:
   name: material
-  language: es
   custom_dir: overrides
+  language: es
   palette:
-    primary: custom
-  font:
-    text: Inter
-    code: Fira Code
+    primary: red
+    accent: deep orange
   features:
+    - navigation.expand
     - navigation.sections
-    - navigation
     - toc.integrate
     - content.code.copy
     - content.code.annotate
@@ -36,9 +34,10 @@ nav:
   - Home: index.md
   - About: about.md
   - Machine HTB:
-      - Machine: htb/machine.md
-      - Forest: htb/forest.md
-      - Voleur: htb/voleur.md
+      - Windows:
+          - Machine: htb/machine.md
+          - Forest: htb/forest.md
+          - Voleur: htb/voleur.md
   - Tools:
       - Nmap: tools/nmap.md
       - LinPEAS: tools/linpeas.md
@@ -52,9 +51,5 @@ nav:
       - Web: cheatsheets/web.md
 
 extra_css:
-  - styles/extra.css
+  - extra.css
   
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/tu_usuario
