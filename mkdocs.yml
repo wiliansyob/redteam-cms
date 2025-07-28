@@ -2,13 +2,10 @@ site_name: RedTeam CMS
 theme:
   name: material
   language: es
-  palette:
-    primary: red
-    accent: deep orange
+  custom_dir: overrides
   features:
-    - navigation.tabs
     - navigation.sections
-    - navigation.instant
+    - navigation.expand
     - toc.integrate
     - content.code.copy
     - content.code.annotate
@@ -49,3 +46,7 @@ nav:
   - Cheatsheets:
       - Linux Privesc: cheatsheets/linux-privesc.md
       - Web: cheatsheets/web.md
+
+
+extra_css:
+  - extra.css
