@@ -1,29 +1,69 @@
-# Forest - HTB
+# Forest
 
-**Dificultad:** Media  
-**Sistema operativo:** Windows  
-**Categoría:** Active Directory
+<div style="display: flex; gap: 2rem; margin-bottom: 1rem;">
+  <img src="../images/forest.png" alt="Forest" style="width: 250px; border-radius: 8px;" />
+  <table>
+    <tr><th>Nombre</th><td>Forest</td></tr>
+    <tr><th>Dificultad</th><td>Media</td></tr>
+    <tr><th>Sistema Operativo</th><td>Windows</td></tr>
+    <tr><th>Categoría</th><td>Active Directory</td></tr>
+    <tr><th>Fecha de resolución</th><td>Julio 2025</td></tr>
+  </table>
+</div>
 
-## 🧠 Enumeración
+---
+
+## 🛰️ Escaneo
 
 ```bash
-nmap -sC -sV -p- -T4 10.10.10.161
-Descubrimos varios servicios relacionados con Active Directory: LDAP, SMB, Kerberos.
+Get-Process
 
-🔍 Enumeración de usuarios
-Utilizando herramientas como rpcclient, enum4linux, o ldapsearch.
+bash title="Shell de acceso"
+nc -lvnp 4444
+whoami
 
-🎯 Ataque
-Kerberos AS-REP roasting con GetNPUsers.py.
+```
 
-🪜 Escalada
-Abuso de privilegios delegados en Active Directory.
+Resumen de puertos abiertos, servicios y versiones.
 
-🔚 Root
-Obtenido acceso como Administrator mediante un ataque DCSync.
+---
 
-Notas:
+## ⚙️ Enumeración
 
-Utiliza Impacket, BloodHound, evil-winrm.
+- SMB
+- LDAP
+- RPC
 
-Revisa el grupo Exchange Trusted Subsystem si aparece.
+---
+
+## 💣 Explotación
+
+Describe el exploit, herramienta o técnica utilizada.
+
+---
+
+## 🧬 Post-Explotación
+
+- Enumeración de privilegios.
+- Persistencia.
+- Extracción de hashes.
+
+---
+
+## 🧠 Lecciones aprendidas
+
+- Siempre revisar [Kerberoasting].
+- Importancia del uso de `bloodhound` y `SharpHound`.
+
+---
+
+## 🛠️ Herramientas utilizadas
+
+- `nmap`, `enum4linux`, `impacket`, `evil-winrm`, etc.
+
+---
+
+## 🔗 Referencias
+
+- [HTB Writeups](https://example.com)
+- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)

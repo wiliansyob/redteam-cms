@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block header %}
+  <header role="banner" class="custom-header-wrapper">
+    <div class="custom-header-bar">
+      <a href="{{ base_url }}/">
+        <img src="{{ base_url }}/images/logo.png" alt="HTB Logo" class="custom-logo">
+      </a>
+      <div class="custom-search">
+        {{ super() }}
+      </div>
+    </div>
+  </header>
+{% endblock %}

@@ -1,0 +1,69 @@
+/* Tema oscuro personalizado */
+body[data-md-color-scheme="slate"] {
+  --md-accent-fg-color: #ae1926;
+  --md-primary-fg-color: #1e2129;
+  --md-default-bg-color: #0f1117;
+}
+
+/* Buscador ajustado sin romper funcionalidad */
+.md-search__form {
+  background-color: #1e2129 !important;
+  border-radius: 6px;
+  border: 1px solid #2a2d34;
+}
+
+.md-search__input {
+  color: #f0f0f0 !important;
+}
+
+/* Enlaces claros y visibles */
+.md-typeset a {
+  color: #4ea4f0;
+  text-decoration: none;
+}
+
+.md-typeset a:hover {
+  color: #76c0ff;
+  text-decoration: underline;
+}
+
+/* Enlaces del menú lateral */
+.md-nav__link {
+  color: #ccc !important;
+}
+
+.md-nav__link--active {
+  color: #ae1926 !important;
+}
+
+/* Estilo de cabecera personalizada */
+.custom-header-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  padding: 20px 0;
+}
+
+.custom-header-bar {
+  display: flex;
+  align-items: center;
+  gap: 800px; /* Ajusta este valor según tu preferencia */
+}
+
+.custom-logo {
+  height: 60px;
+}
+
+.custom-search {
+  background-color: #1e2129;
+  padding: 6px 12px;
+  border-radius: 100px;
+}
+
+.custom-search .md-search {
+  margin: 0;
+}
+
+.custom-header-wrapper {
+  padding-bottom: 5px; /* Controla el espacio inferior del header */
+}

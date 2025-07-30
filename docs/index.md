@@ -1,16 +1,30 @@
-# Repositorio de conocimiento
 
-¡Bienvenido a mi espacio de aprendizaje y documentación sobre hacking ético!
+# <a><strong>Repositorio</strong></a>
 
-<img src="images/logo.png" class="portada">
+<p>¡Bienvenido a mi espacio de aprendizaje y documentación sobre hacking ético!</p>
 
-En este sitio encontrarás:
+<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 2rem;">
 
-- 🧠 Resoluciones de máquinas de Hack The Box (HTB)
-- 🛠️ Guías y manuales de herramientas utilizadas en el proceso
-- 💡 Anotaciones y trucos útiles para CTFs y pentesting
-- 📚 Cheatsheets de técnicas comunes de explotación y post-explotación
+<div style="flex: 3; text-align: center;">
+  <img src="../../images/background2.png" width="350" alt="HTB logo">
+</div>
 
-Este sitio está pensado como una referencia rápida, organizada y extensible para cualquier redteamer en formación o entusiasta de la ciberseguridad ofensiva.
+<div style="flex: 6; min-width: 280px;">
+    <p>En este sitio encontrarás:</p>
+    <ul>
+      <li>🛠️ <strong>Guías y manuales</strong> de herramientas utilizadas en el proceso</li>
+      <li>💡 <strong>Anotaciones y trucos útiles</strong> para CTFs y pentesting</li>
+      <li>📚 <strong>Cheatsheets</strong> de técnicas comunes de explotación y post-explotación</li>
+      <li>🧠 <strong>Resoluciones de máquinas de Hack The Box (HTB)</strong></li>
+    </ul>
 
-¡Explora, aprende y comparte!
+
+</div>
+</div>
+
+<p>Este sitio está pensado como una referencia rápida, organizada y extensible para cualquier redteamer en formación o entusiasta de la ciberseguridad ofensiva.</p>
+
+<p><strong></strong></p>
+<div style="text-align: right;">
+    <strong>¡Explora, aprende y comparte!</strong>
+</div>

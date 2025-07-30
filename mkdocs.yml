@@ -1,35 +1,34 @@
 site_name: Repo-readteam
-
+ 
 nav:
   - Home: index.md
-  - "🧰 Machine HTB":
-      - "– Overview": htb/machine.md
-      - "– Forest": htb/forest.md
-      - "– Voleur": htb/voleur.md
-      - "– Era": htb/era.md
-      - "– Bashed": htb/bashed.md
+
   - "🛠 Tools":
       - "– Nmap": tools/nmap.md
       - "– LinPEAS": tools/linpeas.md
+
   - "🗒️ Notes":
       - "– Reverse Shells": anotaciones/reverse-shells.md
       - "– SUID": anotaciones/suid.md
       - "– Persistence": anotaciones/persistence.md
       - "– Pivoting": anotaciones/pivoting.md
 
-extra:
-  generator: false
-  favicon: images/favicon.png
-
-extra_css:
-  - extra.css
+  - <img src="../../images/htb_icon.ico"> Machine HTB":
+      - "Machines": htb/machine.md
+      - "🖥️ Forest": htb/forest.md
+      - "🖥️ Voleur": htb/voleur.md
+      - "🖥️ Era": htb/era.md
+      - "🖥️ Bashed": htb/bashed.md
 
 theme:
   name: material
-  language: es
   custom_dir: overrides
   palette:
-    primary: custom
+    - scheme: slate
+    - primary: custom 
+    - accent: indigo
+    
+  language: es
   features:
     - navigation.sections
     - toc.integrate
@@ -38,12 +37,39 @@ theme:
     - search.suggest
     - search.highlight
 
+  palette:
+    - scheme: slate  # Tema oscuro
+      primary: custom
+      accent: indigo
+
+  features:
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+extra:
+  generator: false
+
+
+extra_css:
+  - styles/custom.css
+ 
 markdown_extensions:
   - admonition
   - codehilite
   - toc:
       permalink: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: bash
+          class: bash
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: powershell
+          class: powershell
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.details
