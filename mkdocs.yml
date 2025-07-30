@@ -3,22 +3,7 @@ site_name: Repo-readteam
 nav:
   - Home: index.md
 
-  - "🛠 Tools":
-      - "– Nmap": tools/nmap.md
-      - "– LinPEAS": tools/linpeas.md
 
-  - "🗒️ Notes":
-      - "– Reverse Shells": anotaciones/reverse-shells.md
-      - "– SUID": anotaciones/suid.md
-      - "– Persistence": anotaciones/persistence.md
-      - "– Pivoting": anotaciones/pivoting.md
-
-  - <img src="../../images/htb_icon.ico"> Machine HTB":
-      - "Machines": htb/machine.md
-      - "🖥️ Forest": htb/forest.md
-      - "🖥️ Voleur": htb/voleur.md
-      - "🖥️ Era": htb/era.md
-      - "🖥️ Bashed": htb/bashed.md
 
 theme:
   name: material
@@ -36,6 +21,7 @@ theme:
     - content.code.annotate
     - search.suggest
     - search.highlight
+
 
 extra:
   generator: false
